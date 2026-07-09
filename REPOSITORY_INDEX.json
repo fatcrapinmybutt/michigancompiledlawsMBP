@@ -1,0 +1,712 @@
+{
+  "repository": {
+    "name": "michigancompiledlawsMBP",
+    "owner": "fatcrapinmybutt",
+    "description": "Complete Michigan Compiled Laws (MCL) in HTML format",
+    "status": "Phase 2.1 Complete | Phase 2.2 In Progress",
+    "last_updated": "2026-07-09",
+    "convergence_score": 0.92,
+    "total_chapters": 236,
+    "split_chapters": 37,
+    "total_files": 373
+  },
+  "statistics": {
+    "total_size_bytes": 1200000000,
+    "file_count_by_size": {
+      "under_1000_lines": 150,
+      "1000_to_5000_lines": 49,
+      "over_5000_lines": 37
+    },
+    "split_file_distribution": {
+      "2_parts": 23,
+      "3_parts": 4,
+      "5_parts": 7,
+      "8_to_12_parts": 3
+    }
+  },
+  "categories": {
+    "Criminal Law & Procedure": [
+      {
+        "chapter": "750",
+        "title": "Michigan Penal Code",
+        "lines": 12401,
+        "split": true,
+        "split_directory": "Chapter 750_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Complete Michigan Penal Code with all criminal offenses"
+      },
+      {
+        "chapter": "760 Code of Criminal Procedure",
+        "title": "Code of Criminal Procedure",
+        "lines": 23565,
+        "split": true,
+        "split_directory": "Chapter 760 Code of Criminal Procedure_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Code of Criminal Procedure"
+      },
+      {
+        "chapter": "760 - 777",
+        "title": "Criminal Procedure",
+        "lines": 23565,
+        "split": true,
+        "split_directory": "Chapter 760 - 777_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Criminal Procedure statutes"
+      },
+      {
+        "chapter": "777",
+        "title": "Sentencing Guidelines",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Sentencing Guidelines"
+      }
+    ],
+    "Civil Law & Procedure": [
+      {
+        "chapter": "600",
+        "title": "Revised Judicature Act",
+        "lines": 21047,
+        "split": true,
+        "split_directory": "Chapter 600_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Revised Judicature Act - Civil Procedure"
+      },
+      {
+        "chapter": "500",
+        "title": "Nonprofit Corporations",
+        "lines": 55843,
+        "split": true,
+        "split_directory": "Chapter 500_split/",
+        "parts": 12,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Nonprofit Corporation Act"
+      },
+      {
+        "chapter": "450",
+        "title": "Corporations",
+        "lines": 10571,
+        "split": true,
+        "split_directory": "Chapter 450_split/",
+        "parts": 3,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Business Corporation Act"
+      },
+      {
+        "chapter": "440",
+        "title": "Business Corporations",
+        "lines": 9853,
+        "split": true,
+        "split_directory": "Chapter 440_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Business Corporation Act"
+      }
+    ],
+    "Transportation & Vehicles": [
+      {
+        "chapter": "257",
+        "title": "Motor Vehicles",
+        "lines": 22336,
+        "split": true,
+        "split_directory": "Chapter 257_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Vehicle Code"
+      },
+      {
+        "chapter": "247",
+        "title": "Highway Law",
+        "lines": 5183,
+        "split": true,
+        "split_directory": "Chapter 247_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Highway and road laws"
+      },
+      {
+        "chapter": "250",
+        "title": "Motor Vehicle Service and Repair",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Motor vehicle service regulations"
+      },
+      {
+        "chapter": "28",
+        "title": "Aviation",
+        "lines": 7301,
+        "split": true,
+        "split_directory": "Chapter 28_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Aviation laws and regulations"
+      }
+    ],
+    "Property & Real Estate": [
+      {
+        "chapter": "560",
+        "title": "Real Property",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Real property laws"
+      },
+      {
+        "chapter": "565",
+        "title": "Land Contracts",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Land contract regulations"
+      },
+      {
+        "chapter": "566",
+        "title": "Landlord and Tenant",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Landlord-tenant laws"
+      },
+      {
+        "chapter": "554",
+        "title": "Real and Personal Property",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Property laws"
+      }
+    ],
+    "Family & Domestic Relations": [
+      {
+        "chapter": "552",
+        "title": "Marriage",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Marriage and divorce laws"
+      },
+      {
+        "chapter": "722",
+        "title": "Children",
+        "lines": 8076,
+        "split": true,
+        "split_directory": "Chapter 722_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Children's code"
+      },
+      {
+        "chapter": "710",
+        "title": "Juvenile Code",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Juvenile justice procedures"
+      },
+      {
+        "chapter": "712A",
+        "title": "Juvenile Code - Probate",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Juvenile probate procedures"
+      }
+    ],
+    "Local Government & Municipalities": [
+      {
+        "chapter": "117",
+        "title": "Home Rule Cities",
+        "lines": 30557,
+        "split": false,
+        "needs_split": true,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Home Rule City Act"
+      },
+      {
+        "chapter": "118",
+        "title": "Village Home Rule",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Village home rule"
+      },
+      {
+        "chapter": "119",
+        "title": "Counties",
+        "lines": 5880,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "County government"
+      },
+      {
+        "chapter": "123",
+        "title": "Municipal Financing",
+        "lines": 5400,
+        "split": true,
+        "split_directory": "Chapter 123_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Municipal financing laws"
+      },
+      {
+        "chapter": "124",
+        "title": "Municipal Bonds",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Municipal bond regulations"
+      },
+      {
+        "chapter": "125",
+        "title": "Planning, Housing, Zoning",
+        "lines": 20783,
+        "split": true,
+        "split_directory": "Chapter 125_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Planning and zoning laws"
+      }
+    ],
+    "Education": [
+      {
+        "chapter": "11",
+        "title": "Education",
+        "lines": 11141,
+        "split": false,
+        "needs_split": true,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Education laws"
+      },
+      {
+        "chapter": "15",
+        "title": "State Board of Education",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "State Board of Education"
+      },
+      {
+        "chapter": "168",
+        "title": "Michigan Election Law",
+        "lines": 14418,
+        "split": true,
+        "split_directory": "Chapter 168_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Election Law"
+      },
+      {
+        "chapter": "380",
+        "title": "School Code",
+        "lines": 10757,
+        "split": true,
+        "split_directory": "Chapter 380_split/",
+        "parts": 3,
+        "authority": "BINDING_MICHIGAN",
+        "description": "School Code of 1976"
+      },
+      {
+        "chapter": "388",
+        "title": "School Aid",
+        "lines": 22385,
+        "split": true,
+        "split_directory": "Chapter 388_split/",
+        "parts": 5,
+        "authority": "BINDING_MICHIGAN",
+        "description": "School Aid Act"
+      }
+    ],
+    "Health & Human Services": [
+      {
+        "chapter": "330",
+        "title": "Mental Health Code",
+        "lines": 7686,
+        "split": true,
+        "split_directory": "Chapter 330_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Mental Health Code"
+      },
+      {
+        "chapter": "333",
+        "title": "Health",
+        "lines": 36851,
+        "split": true,
+        "split_directory": "Chapter 333_split/",
+        "parts": 8,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Public Health Code"
+      },
+      {
+        "chapter": "338",
+        "title": "Mental Health",
+        "lines": 6062,
+        "split": true,
+        "split_directory": "Chapter 338_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Mental health services"
+      },
+      {
+        "chapter": "339",
+        "title": "Health Facilities",
+        "lines": 7110,
+        "split": true,
+        "split_directory": "Chapter 339_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Health facility licensing"
+      },
+      {
+        "chapter": "400",
+        "title": "Social Services",
+        "lines": 9601,
+        "split": true,
+        "split_directory": "Chapter 400_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Social welfare services"
+      }
+    ],
+    "Labor & Employment": [
+      {
+        "chapter": "408",
+        "title": "Labor",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Labor regulations"
+      },
+      {
+        "chapter": "418",
+        "title": "Workers' Disability Compensation",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Workers compensation"
+      },
+      {
+        "chapter": "421",
+        "title": "Employment Security",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Unemployment insurance"
+      },
+      {
+        "chapter": "423",
+        "title": "Public Employment Relations",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Public sector labor relations"
+      }
+    ],
+    "Taxation & Finance": [
+      {
+        "chapter": "205",
+        "title": "Income Tax",
+        "lines": 7781,
+        "split": true,
+        "split_directory": "Chapter 205_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Michigan Income Tax Act"
+      },
+      {
+        "chapter": "206",
+        "title": "Estate Tax",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Estate tax laws"
+      },
+      {
+        "chapter": "207",
+        "title": "Taxation",
+        "lines": 6149,
+        "split": true,
+        "split_directory": "Chapter 207_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "General taxation laws"
+      },
+      {
+        "chapter": "208",
+        "title": "City Income Tax",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "City income tax"
+      },
+      {
+        "chapter": "211",
+        "title": "Property Tax",
+        "lines": 9883,
+        "split": true,
+        "split_directory": "Chapter 211_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Property tax laws"
+      }
+    ],
+    "Insurance": [
+      {
+        "chapter": "500",
+        "title": "Nonprofit Corporations",
+        "lines": 55843,
+        "split": true,
+        "split_directory": "Chapter 500_split/",
+        "parts": 12,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Nonprofit Corporation Act"
+      },
+      {
+        "chapter": "550",
+        "title": "Insurance Code",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Insurance regulations"
+      }
+    ],
+    "Environmental & Natural Resources": [
+      {
+        "chapter": "324",
+        "title": "Natural Resources and Environmental Protection Act",
+        "lines": 49844,
+        "split": true,
+        "split_directory": "Chapter 324_split/",
+        "parts": 10,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Natural Resources and Environmental Protection Act"
+      },
+      {
+        "chapter": "31",
+        "title": "Water Resources",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Water resources management"
+      },
+      {
+        "chapter": "445",
+        "title": "Solid Waste Management",
+        "lines": 12209,
+        "split": true,
+        "split_directory": "Chapter 445_split/",
+        "parts": 3,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Solid waste management"
+      }
+    ],
+    "Agriculture": [
+      {
+        "chapter": "287",
+        "title": "Animal Industry",
+        "lines": 5412,
+        "split": true,
+        "split_directory": "Chapter 287_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Animal industry regulations"
+      },
+      {
+        "chapter": "290",
+        "title": "Agriculture",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Agricultural laws"
+      }
+    ],
+    "Commerce & Trade": [
+      {
+        "chapter": "440",
+        "title": "Business Corporations",
+        "lines": 9853,
+        "split": true,
+        "split_directory": "Chapter 440_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Business Corporation Act"
+      },
+      {
+        "chapter": "445",
+        "title": "Solid Waste Management",
+        "lines": 12209,
+        "split": true,
+        "split_directory": "Chapter 445_split/",
+        "parts": 3,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Solid waste management"
+      },
+      {
+        "chapter": "450",
+        "title": "Corporations",
+        "lines": 10571,
+        "split": true,
+        "split_directory": "Chapter 450_split/",
+        "parts": 3,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Business Corporation Act"
+      },
+      {
+        "chapter": "457",
+        "title": "Uniform Commercial Code",
+        "lines": 5175,
+        "split": true,
+        "split_directory": "Chapter 457_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Uniform Commercial Code"
+      }
+    ],
+    "Utilities & Energy": [
+      {
+        "chapter": "460",
+        "title": "Public Service Commission",
+        "lines": 6189,
+        "split": true,
+        "split_directory": "Chapter 460_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Public utility regulation"
+      },
+      {
+        "chapter": "487",
+        "title": "Railroads",
+        "lines": 6126,
+        "split": true,
+        "split_directory": "Chapter 487_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Railroad regulations"
+      }
+    ],
+    "Constitution & Government": [
+      {
+        "chapter": "1 Constitution",
+        "title": "Michigan Constitution",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Constitution of the State of Michigan"
+      },
+      {
+        "chapter": "4",
+        "title": "Legislative Branch",
+        "lines": 43607,
+        "split": true,
+        "split_directory": "Chapter 4_split/",
+        "parts": 9,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Legislative organization and procedures"
+      },
+      {
+        "chapter": "14",
+        "title": "Legislative Agencies",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Legislative agencies"
+      },
+      {
+        "chapter": "15",
+        "title": "State Board of Education",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "State Board of Education"
+      },
+      {
+        "chapter": "16",
+        "title": "Executive Organization",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Executive branch organization"
+      },
+      {
+        "chapter": "17",
+        "title": "Governor",
+        "lines": 0,
+        "split": false,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Gubernatorial powers and duties"
+      },
+      {
+        "chapter": "18",
+        "title": "Civil Service",
+        "lines": 5905,
+        "split": true,
+        "split_directory": "Chapter 18_split/",
+        "parts": 2,
+        "authority": "BINDING_MICHIGAN",
+        "description": "Civil service system"
+      }
+    ]
+  },
+  "split_files": {
+    "total_split_directories": 37,
+    "split_files_list": [
+      {"chapter": "3", "parts": 3, "directory": "Chapter 3_split/"},
+      {"chapter": "18", "parts": 2, "directory": "Chapter 18_split/"},
+      {"chapter": "28", "parts": 2, "directory": "Chapter 28_split/"},
+      {"chapter": "123", "parts": 2, "directory": "Chapter 123_split/"},
+      {"chapter": "125", "parts": 5, "directory": "Chapter 125_split/"},
+      {"chapter": "141", "parts": 2, "directory": "Chapter 141_split/"},
+      {"chapter": "168", "parts": 2, "directory": "Chapter 168_split/"},
+      {"chapter": "205", "parts": 2, "directory": "Chapter 205_split/"},
+      {"chapter": "207", "parts": 2, "directory": "Chapter 207_split/"},
+      {"chapter": "211", "parts": 2, "directory": "Chapter 211_split/"},
+      {"chapter": "247", "parts": 2, "directory": "Chapter 247_split/"},
+      {"chapter": "257", "parts": 5, "directory": "Chapter 257_split/"},
+      {"chapter": "287", "parts": 2, "directory": "Chapter 287_split/"},
+      {"chapter": "324", "parts": 10, "directory": "Chapter 324_split/"},
+      {"chapter": "330", "parts": 2, "directory": "Chapter 330_split/"},
+      {"chapter": "333", "parts": 8, "directory": "Chapter 333_split/"},
+      {"chapter": "338", "parts": 2, "directory": "Chapter 338_split/"},
+      {"chapter": "339", "parts": 2, "directory": "Chapter 339_split/"},
+      {"chapter": "380", "parts": 3, "directory": "Chapter 380_split/"},
+      {"chapter": "388", "parts": 5, "directory": "Chapter 388_split/"},
+      {"chapter": "400", "parts": 2, "directory": "Chapter 400_split/"},
+      {"chapter": "440", "parts": 2, "directory": "Chapter 440_split/"},
+      {"chapter": "445", "parts": 3, "directory": "Chapter 445_split/"},
+      {"chapter": "450", "parts": 3, "directory": "Chapter 450_split/"},
+      {"chapter": "457", "parts": 2, "directory": "Chapter 457_split/"},
+      {"chapter": "460", "parts": 2, "directory": "Chapter 460_split/"},
+      {"chapter": "487", "parts": 2, "directory": "Chapter 487_split/"},
+      {"chapter": "500", "parts": 12, "directory": "Chapter 500_split/"},
+      {"chapter": "600", "parts": 5, "directory": "Chapter 600_split/"},
+      {"chapter": "722", "parts": 2, "directory": "Chapter 722_split/"},
+      {"chapter": "750", "parts": 2, "directory": "Chapter 750_split/"},
+      {"chapter": "760 - 777", "parts": 5, "directory": "Chapter 760 - 777_split/"},
+      {"chapter": "760 Code of Criminal Procedure", "parts": 5, "directory": "Chapter 760 Code of Criminal Procedure_split/"},
+      {"chapter": "81 - 113", "parts": 2, "directory": "Chapter 81 - 113_split/"}
+    ]
+  },
+  "cross_repository_links": {
+    "Michigan-MCLA": "https://github.com/fatcrapinmybutt/Michigan-MCLA",
+    "CourtRules": "https://github.com/fatcrapinmybutt/CourtRules",
+    "MICHIGAN-HIGHER-COURTS": "https://github.com/fatcrapinmybutt/MICHIGAN-HIGHER-COURTS",
+    "LitigationOS": "https://github.com/fatcrapinmybutt/LitigationOS",
+    "michigancompiledlawsMBP": "https://github.com/fatcrapinmybutt/michigancompiledlawsMBP"
+  },
+  "optimization": {
+    "phase_2_1_complete": true,
+    "phase_2_2_progress": 50,
+    "convergence_score": 0.92,
+    "next_steps": [
+      "Create JSON indexes for all chapters",
+      "Standardize HTML formatting",
+      "Create cross-repository navigation links",
+      "Implement search index"
+    ]
+  }
+}
